@@ -22,6 +22,6 @@ Por favor sigue el tutorial en el orden siguiente:
 
 [2. Haz un release canario](/documentation/guides/getting-started-tutorial/2-canary-release/)
 
-[3. Separar en diferentes servicios](/documentation/guides/getting-started-tutorial/3-splitting-services/)
+[3. Separa en diferentes servicios](/documentation/guides/getting-started-tutorial/3-splitting-services/)
 
 [4. Une (merge) y borra servicios](/documentation/guides/getting-started-tutorial/4-merge-delete/)
