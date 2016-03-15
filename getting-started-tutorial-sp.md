@@ -10,7 +10,7 @@ menu:
 
 # Tutorial para comenzar
 
-Para dar una muestra de lo que Vamp provee hemos creado un grupo de applicaciones, servicios y blueprints ejemplares, a los cuales en conjunto llamamos "Sava".
+Para dar una muestra de lo que Vamp provee hemos creado un grupo de aplicaciones, servicios y blueprints ejemplares, a los cuales en conjunto llamamos "Sava".
 
 Sava es un vampiro mítico de Serbia ([wiki](https://es.wikipedia.org/wiki/Sava_Savanović)) pero en este caso es un [repo en Github] (https://github.com/magneticio/sava) lleno de ejemplos con los que demostramos Vamp.
 
