@@ -1,0 +1,23 @@
+translated from https://jaxenter.com/very-awesome-microservices-platform-124435.html
+
+Muy Impresionante Plataforma de Microservicios (VAMP)
+
+Si le preguntas a Olaf Molenveld, CEO y co-fundador de Magnetic.io con sede en Ámsterdam, acerca de contenedores y microservicios, dirá que son una combinación perfecta. Aunque existen complicaciones, la Muy Impresionante Plataforma de Microservicios (VAMP por sus siglas en inglés) busca resolverlas.
+
+“Contenedores y microservicios: la combinación perfecta, una pareja ideal", dice entusiasmado Olaf Molenveld, CEO y co-fundador de Magnetic.io / VAMP en Amsterdam, Holanda. Mediante la combinación de los dos, lo mejor de ambos mundos está a la mano - despliegue rápido, orquestación simple de microservicios, pruebas y escalamiento. Por ejemplo, no hay necesidad de que administradores provisionen nodos, basta con modificar un archivo de configuración o hacer post a una API REST y has escalado un servicio de 1 a 10 instancias.
+
+Como siempre, sin embargo, complejidades quedan. "La innovación es estimulada por la reducción de riesgos", argumenta Molenveld. Mientras que la contenerización permite configuraciones de despliegue continuo (continuous delivery), por medio de proporcionar ambientes idénticos, una nueva serie de problemas son introducidos cuando arquitecturas microservicios entran en escena. La Muy Impresionante Plataforma de Microservicios (VAMP) es el centro de control de código abierto de Magnetic.io para plataformas de contenedores.
+
+VAMP tiene como objetivo eliminar la molestia de correr arquitecturas complejas y críticas basadas en (micro)servicios ​proporcionando un DSL de microservicios que es plataforma-agnóstico, incluyendo capacidades para pruebas de A-B, lanzamientos canario, escalamientos automáticos, así como un motor integrado de métricas y eventos y paneles de control.
+
+Desde comercio electrónico hasta la gestión de Microservicios / contenedores
+
+"En un principio, la idea era proporcionar una plataforma de comercio electrónico para organizaciones, utilizando un contenedor y una arquitectura de microservicios," dice Molenveld. Alrededor de 2014, Magnetic.io comenzó a producir esta plataforma de comercio electrónico con microservicios y contenedores. Se demostró que era escalable y tenía una serie de ideas incorporadas para la orquestación de plataforma que eran atractivas para los clientes que no estaban necesariamente interesados ​​en la plataforma de comercio electrónico.
+
+En particular, el soporte incorporado para lanzamientos canario y escalamiento automático fue resonante. Aún más en particular, resulta que es difícil establecer infraestructuras coherentes alrededor de lanzamientos canario, es decir, el proceso de lenta implementación de cambios a porciones de usuarios, antes de implementarla en toda la infraestructura. VAMP no sólo viene con técnicas y paneles de control para la gestión de lanzamientos canario, sino que incluso tiene un tutorial que muestra cómo configurarlas.
+
+Con o sin microservicios
+
+A través de reuniones y otros eventos para desarrolladores, a Molenveld se le preguntó si la VAMP misma estaba disponible como proyecto y que si podría ser comprado. Y entonces VAMP, como un producto independiente, fue establecido y socios pueden utilizar VAMP para desarrollar sus soluciones propias basadas en microservicios y contenedores, basados en VAMP. Molenveld y su equipo comenzaron a concentrarse específicamente en VAMP. Incluso organizaciones sin un interés en microservicios encuentran en VAMP una tecnología interesante, que les permite obtener una imagen sólida del estado de sus aplicaciones monolíticas contenedorizadas, mientras que les permite actualizar su software sin pausas.
+
+Único entre productos comparables, VAMP es independiente de proveedor, con controladores para tecnologías tales como Mesos/Marathon, Docker, y Kubernetes, con APIs para que otros hagan otras herramientas similares. Lo mejor de VAMP está en funciones de nivel superior, tales como escalamientos automáticos y pruebas canario, en lugar de características de aprovisionamientos a nivel bajo. Un pequeño equipo de desarrolladores trabaja en VAMP, en Amsterdam, junto con una gama de socios en todo el mundo. Se está trabajando en módulos comerciales de código cerrado, centrándose en más paneles de control, herramientas independientes, y motores de canario-analíticas.
